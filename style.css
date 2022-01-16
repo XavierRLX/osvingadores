@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #030e33;
+    padding: 10px;
+    color: #ffffff;
+
+}
+.pesquisar-header{
+    display: flex;
+}
+#input-pesquise-header{
+    background-color: #fdfbfbc0;
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+    height: 15px;
+    width: 50vw;
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lupa{
+    margin: 15px 0px 0px 10px;
+}
+.menu-header {
+    display: flex;
+}
+.menu-header > p {
+    padding: 5px;
+    font-family: 'Marvel', sans-serif;
+    font-weight: bolder;
+    font-size: 2.5vw;
+}
+.foto-vinga{
+    background-image: url(imagens/vingadores-all.png);
+    height: 91vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.legenda{
+    font-size: 3vw ;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    line-height: 100px;
+    color: #ffffff;
+    width: 33%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+#foto-aranha{
+    background-image: url(imagens/aranha.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+.legenda-geral{
+    font-size: 2vw ;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 100px;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.descricao{
+    font-size: 2vw;
+    width: 40%;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: hsla(0, 0%, 0%, 0.478);
+}
+#foto-starlord{
+    background-image: url(imagens/starlord.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#legenda-starlord{
+    font-size: 2vw ;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    width: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 50%;
+   padding-top: 200px;
+   color: #ffffff;
+}
+#descricao-star{
+    margin-top: 50px;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.478);
+
+}
+#foto-thor{
+    background-image: url(imagens/thor.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+#legenda-thor{
+    font-size: 2vw ;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 40px;
+    width: 40%;
+    padding: 100px;
+    color: #ffffff;
+}
+#descricao-thor{
+    margin-top: 100px;
+    text-align: center;
+    background-color: hsla(0, 0%, 0%, 0.478);
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #030e33;
+    color: #ffffff;
+}
+footer > a {
+    text-decoration: none;
+    color: red;
+}
+@media  ( max-width: 800px) {
+    #foto-aranha{
+        background-position: right center;
+    }
+    #foto-starlord{
+    background-position:
+    left center;
+    }
+    #legenda-starlord{
+        margin-left: 20%;
+   padding-top: 100px;
+    }
+    #foto-thor{
+        background-position:
+    right center;
+    }
+    .menu-header{
+        display: none;
+    }
+}
