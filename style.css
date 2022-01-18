@@ -133,6 +133,11 @@ header{
     text-align: center;
     background-color: hsla(0, 0%, 0%, 0.478);
 }
+.descricao, #descricao-thor, #descricao-star{
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px black;
+}
 footer{
     text-align: center;
     font-family: 'Marvel', sans-serif;
