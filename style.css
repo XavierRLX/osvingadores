@@ -77,6 +77,7 @@ header{
     padding-top: 100px;
     margin-left: 100px;
     line-height: 40px;
+    color: #ffffff;
 }
 .descricao{
     font-size: 2vw;
@@ -123,7 +124,8 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 40px;
     width: 40%;
-    padding: 100px;
+    padding-top: 100px;
+    margin-left: 100px;
     color: #ffffff;
 }
 #descricao-thor{
@@ -133,9 +135,10 @@ header{
 }
 footer{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Marvel', sans-serif;
     background-color: #030e33;
     color: #ffffff;
+    padding: 10px;
 }
 footer > a {
     text-decoration: none;
@@ -159,5 +162,27 @@ footer > a {
     }
     .menu-header{
         display: none;
+    }
+    .legenda, .legenda-geral, .descricao, #legenda-starlord, #legenda-thor{
+        font-size: 2.2vh;
+        width: 300px;
+    }
+    .legenda{
+    margin-top: 300px;
+    margin-left: 55px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+    }
+    .legenda-geral{
+    padding-top: 100px;
+    margin-left: 55px;
+    }
+    #legenda-starlord{
+        margin-left: 55px;
+    }
+    #legenda-thor{
+    padding-top: 100px;
+    margin-left: 55px;
+    
     }
 }
