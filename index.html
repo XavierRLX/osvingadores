@@ -9,22 +9,26 @@
     <title>VINGADORES</title>
 </head>
 <body>
-    <header>
-        <div class="imagem-header">
-            <img src="imagens/logovingadores.png" >
-        </div>
-        <div class="pesquisar-header">
-            <form>
-                <input id="input-pesquise-header" type="text" name="" placeholder="Pesquise...">
-            </form>
-            <div class="lupa">
-                <img src="imagens/lupa.png" alt="">
+        <header>
+            <div class="imagem-header">
+                <img width="40px" src="imagens/logovingadores.png" >
             </div>
-        </div>
+
         <div class="menu-header">
-           <p>Nomes</p>
-           <p>Sobre</p>
-           <p>Contato</p>
+            <div id="menuf">
+               <img src="imagens/seta-para-baixo (1).png">
+            </div>
+            <div id="menua">
+                <img width="17px" src="imagens/x (1).png">
+            </div>
+           <ul id="lista">
+               <li>Escolha o vingador</li>
+               <ul id="menu">
+                   <li><a translate="1s" href="#legenda-geral">Homem-Aranha</a></li>
+                   <li><a href="#foto-starlord">Star-Lord</a></li>
+                   <li><a href="#foto-thor">Thor</a></li>
+               </ul>
+           </ul>
         </div>
     </header>
     <div class="foto-vinga">
@@ -34,7 +38,7 @@
     </div>
 
     <div id="foto-aranha">
-        <div class="legenda-geral">
+        <div id="legenda-geral">
             <h2 >HOMEM ARANHA </h2>
             <p class="descricao">A história do Homem-Aranha começa quando o tímido Peter Parker, órfão de pai e mãe, que vive com os tios (Ben e May) em Forest Hills, no bairro nova-iorquino de Queens (EUA), visita um laboratório onde decorre uma experiência que revolucionará a sua vida, durante a qual uma aranha é atingida por uma potente radiação.</p>
         </div>
@@ -58,6 +62,8 @@
     <footer>
         <h3>Site criado por <a target="_blanl" href= "https://xavierrlx.github.io/sitesrenan/">Renan Xavier</a></h3>
     </footer>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
