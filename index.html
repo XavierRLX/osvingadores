@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boostrapz/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/logovingadores.png" type="image/x-icon">
     <title>VINGADORES</title>
@@ -13,27 +15,23 @@
             <div class="imagem-header">
                 <img width="40px" src="imagens/logovingadores.png" >
             </div>
+        
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Escolha o vingador
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#foto-aranha">Homem Aranha</a></li>
+              <li><a href="#foto-starlord">Star Lord</a></li>
+              <li><a href="#foto-thor">Thor</a></li>
+            </ul>
+          </div>
 
-        <div class="menu-header">
-            <div id="menuf">
-               <img src="imagens/seta-para-baixo (1).png">
-            </div>
-            <div id="menua">
-                <img width="17px" src="imagens/x (1).png">
-            </div>
-           <ul id="lista">
-               <li>Escolha o vingador</li>
-               <ul id="menu">
-                   <li><a translate="1s" href="#legenda-geral">Homem-Aranha</a></li>
-                   <li><a href="#foto-starlord">Star-Lord</a></li>
-                   <li><a href="#foto-thor">Thor</a></li>
-               </ul>
-           </ul>
-        </div>
     </header>
     <div class="foto-vinga">
-        <div class="legenda">
-            <h2> Os Personagens dos <br> Vingadores</h2>
+            <div class="legenda">
+                <h2> Os Personagens dos <br> Vingadores</h2>
         </div>
     </div>
 
@@ -63,7 +61,7 @@
         <h3>Site criado por <a target="_blanl" href= "https://xavierrlx.github.io/sitesrenan/">Renan Xavier</a></h3>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="boostrapz/js/bootstrap.min.js"></script>
     
 </body>
 </html>
